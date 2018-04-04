@@ -1,6 +1,6 @@
 defmodule Servy.Conv do
 
-  defstruct method: "", path: "", resp_body: "", params: %{}, status: nil
+  defstruct method: "", path: "", resp_body: "", params: %{}, headers: %{}, status: nil
 
   defp status_reason(code) do
     %{
